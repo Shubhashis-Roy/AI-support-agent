@@ -1,7 +1,7 @@
 # AI Support Chatbot
 
 - Description: The application allows users to chat with a support agent, persists conversations, and restores chat history on reload using a session-based approach.
-<h3> <a href= "live url" >Live Demo</a> </h3>
+<h3> <a href= "https://beautiful-hummingbird-6da801.netlify.app/" >Live Demo</a> </h3>
 
 ## How to setup and run the project locally
 
