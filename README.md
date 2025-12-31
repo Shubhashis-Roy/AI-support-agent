@@ -1,6 +1,7 @@
 # AI Support Chatbot
 
 - Description: The application allows users to chat with a support agent, persists conversations, and restores chat history on reload using a session-based approach.
+<h3> <a href= "live url" >Live Demo</a> </h3>
 
 ## How to setup and run the project
 
@@ -13,12 +14,6 @@
 
 - Install node packages: `npm i`
 - Run the project: `npm run dev`
-
-#### Tech stack
-
-- React
-- Vite
-- TypeScript
 
 ### Backend
 
@@ -33,19 +28,35 @@
 - Install node packages: `npm i`
 - Run the project: `npm run dev`
 
-#### Tech stack
+---
 
-- Node.js
-- Express
-- TypeScript
-- Supabase (PostgreSQL)
-
-### AI / LLM
+## AI / LLM notes:
 
 - **Groq API**
 - Model: `llama-3.1-8b-instant`
+Groq was chosen because it provides a **free**, fast, and production-grade LLM.
 
-Groq was chosen because it provides a **free**, fast, and production-grade LLM suitable for interview demos without requiring billing.
+#### How I prompting LLM.
+- Uses a system prompt to define the AI as a helpful customer support agent.
+- Includes domain knowledge such as product categories, shipping policy, return/refund policy, and support hours.
+- Sends recent conversation history to provide contextual responses.
+- Applies guardrails to prevent hallucinations and out-of-scope answers.
+- Limits tokens and message history to control cost and ensure concise replies.
+
+---
+## Tech stack
+
+### Frontend
+
+- React
+- Vite
+- TypeScript 
+
+### Backend
+- Node.js
+- Express
+- TypeScript
+- PostgreSQL (Supabase)
 
 ---
 
