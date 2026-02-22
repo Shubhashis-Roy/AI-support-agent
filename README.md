@@ -21,9 +21,9 @@
 - env file details(please do not edit just copy and paste this into the .env file):
 
   - PORT = 4000
-  - SUPABASE_URL = 'https://tdmlvpjcyocwpvxzyuof.supabase.co'
-  - SUPABASE_ANON_KEY = 'sb_publishable_sSAnpDzOZMZGf9H8yH-NVg_l5vTuEXp'
-  - GROQ_API_KEY = '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'
+  - SUPABASE_URL = ''
+  - SUPABASE_ANON_KEY = ''
+  - GROQ_API_KEY = ''
 
 - Install node packages: `npm i`
 - Run the project: `npm run dev`
